@@ -1,0 +1,37 @@
+.vehicle-card {
+    background-color: #191d2c;
+    width: 21rem;
+    height: 14.8rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+
+    &__top,
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem;
+    }
+
+    &__nation-image {
+        img {
+            width: 5.2rem;
+            height: 3.2rem;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            width: 17.6rem;
+            height: 10.3rem;
+        }
+    }
+}
